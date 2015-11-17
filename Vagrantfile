@@ -5,7 +5,7 @@
 Vagrant.configure(2) do |config|
  
   #Aqui se pondria el link de mega de la box
-  config.vm.box = "justCode/base"
+  config.vm.box = "hejuso/JustCode"
  
   config.vm.network "forwarded_port", guest: 80, host: 8080
 
